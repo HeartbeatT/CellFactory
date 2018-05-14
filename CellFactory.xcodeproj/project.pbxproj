@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630DA6B320A91DE000072978 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630DA6B220A91DE000072978 /* MainViewController.m */; };
 		6310549D20A87F0100CF3AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6310549C20A87F0100CF3AF0 /* AppDelegate.m */; };
 		631054A020A87F0100CF3AF0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6310549F20A87F0100CF3AF0 /* MasterViewController.m */; };
 		631054A320A87F0100CF3AF0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631054A220A87F0100CF3AF0 /* DetailViewController.m */; };
@@ -16,6 +17,13 @@
 		631054AE20A87F0200CF3AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631054AD20A87F0200CF3AF0 /* main.m */; };
 		631054B820A87F0200CF3AF0 /* CellFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631054B720A87F0200CF3AF0 /* CellFactoryTests.m */; };
 		631054C320A87F0200CF3AF0 /* CellFactoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631054C220A87F0200CF3AF0 /* CellFactoryUITests.m */; };
+		638ECC7A20A923E7001AC782 /* CellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ECC7920A923E7001AC782 /* CellFactory.m */; };
+		638ECC7D20A923F5001AC782 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ECC7C20A923F5001AC782 /* BaseModel.m */; };
+		638ECC8020A926CD001AC782 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ECC7F20A926CD001AC782 /* BaseTableViewCell.m */; };
+		638ECC8320A92811001AC782 /* OneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ECC8220A92811001AC782 /* OneTableViewCell.m */; };
+		638ECC8620A92901001AC782 /* TwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ECC8520A92901001AC782 /* TwoTableViewCell.m */; };
+		638ECC8920A9295E001AC782 /* OneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ECC8820A9295E001AC782 /* OneModel.m */; };
+		638ECC8C20A92974001AC782 /* TwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 638ECC8B20A92974001AC782 /* TwoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		630DA6B120A91DE000072978 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		630DA6B220A91DE000072978 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		6310549820A87F0100CF3AF0 /* CellFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6310549B20A87F0100CF3AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6310549C20A87F0100CF3AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +64,20 @@
 		631054BE20A87F0200CF3AF0 /* CellFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellFactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631054C220A87F0200CF3AF0 /* CellFactoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellFactoryUITests.m; sourceTree = "<group>"; };
 		631054C420A87F0200CF3AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638ECC7820A923E7001AC782 /* CellFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellFactory.h; sourceTree = "<group>"; };
+		638ECC7920A923E7001AC782 /* CellFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellFactory.m; sourceTree = "<group>"; };
+		638ECC7B20A923F5001AC782 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		638ECC7C20A923F5001AC782 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		638ECC7E20A926CD001AC782 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		638ECC7F20A926CD001AC782 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		638ECC8120A92811001AC782 /* OneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneTableViewCell.h; sourceTree = "<group>"; };
+		638ECC8220A92811001AC782 /* OneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneTableViewCell.m; sourceTree = "<group>"; };
+		638ECC8420A92901001AC782 /* TwoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoTableViewCell.h; sourceTree = "<group>"; };
+		638ECC8520A92901001AC782 /* TwoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewCell.m; sourceTree = "<group>"; };
+		638ECC8720A9295E001AC782 /* OneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneModel.h; sourceTree = "<group>"; };
+		638ECC8820A9295E001AC782 /* OneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneModel.m; sourceTree = "<group>"; };
+		638ECC8A20A92974001AC782 /* TwoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoModel.h; sourceTree = "<group>"; };
+		638ECC8B20A92974001AC782 /* TwoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +130,22 @@
 			children = (
 				6310549B20A87F0100CF3AF0 /* AppDelegate.h */,
 				6310549C20A87F0100CF3AF0 /* AppDelegate.m */,
+				630DA6B120A91DE000072978 /* MainViewController.h */,
+				630DA6B220A91DE000072978 /* MainViewController.m */,
+				638ECC7820A923E7001AC782 /* CellFactory.h */,
+				638ECC7920A923E7001AC782 /* CellFactory.m */,
+				638ECC7E20A926CD001AC782 /* BaseTableViewCell.h */,
+				638ECC7F20A926CD001AC782 /* BaseTableViewCell.m */,
+				638ECC8120A92811001AC782 /* OneTableViewCell.h */,
+				638ECC8220A92811001AC782 /* OneTableViewCell.m */,
+				638ECC8420A92901001AC782 /* TwoTableViewCell.h */,
+				638ECC8520A92901001AC782 /* TwoTableViewCell.m */,
+				638ECC7B20A923F5001AC782 /* BaseModel.h */,
+				638ECC7C20A923F5001AC782 /* BaseModel.m */,
+				638ECC8720A9295E001AC782 /* OneModel.h */,
+				638ECC8820A9295E001AC782 /* OneModel.m */,
+				638ECC8A20A92974001AC782 /* TwoModel.h */,
+				638ECC8B20A92974001AC782 /* TwoModel.m */,
 				6310549E20A87F0100CF3AF0 /* MasterViewController.h */,
 				6310549F20A87F0100CF3AF0 /* MasterViewController.m */,
 				631054A120A87F0100CF3AF0 /* DetailViewController.h */,
@@ -267,9 +307,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638ECC8620A92901001AC782 /* TwoTableViewCell.m in Sources */,
 				631054A020A87F0100CF3AF0 /* MasterViewController.m in Sources */,
 				6310549D20A87F0100CF3AF0 /* AppDelegate.m in Sources */,
+				638ECC7A20A923E7001AC782 /* CellFactory.m in Sources */,
+				638ECC7D20A923F5001AC782 /* BaseModel.m in Sources */,
+				638ECC8020A926CD001AC782 /* BaseTableViewCell.m in Sources */,
 				631054AE20A87F0200CF3AF0 /* main.m in Sources */,
+				638ECC8920A9295E001AC782 /* OneModel.m in Sources */,
+				638ECC8C20A92974001AC782 /* TwoModel.m in Sources */,
+				630DA6B320A91DE000072978 /* MainViewController.m in Sources */,
+				638ECC8320A92811001AC782 /* OneTableViewCell.m in Sources */,
 				631054A320A87F0100CF3AF0 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
